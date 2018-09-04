@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'CircularStd-Bold';
+  src: url('CircularStd-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url('CircularStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

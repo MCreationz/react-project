@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Checkout page</title>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="html-project/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-default margin-botm-0">
+    <div class="container">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle talent_navbar collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="html-project/images/Untitled-1.png" class="logo_img"></a>
+      </div>
+      <div class="navbar-collapse collapse pull-right" id="myNavbar" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav" id="navleft">
+          <li class=""><a href="index.html">Skincare</a></li>
+          <li><a href="#">Makeup</a></li>
+       
+        <li><a href="#">Womens</a></li>
+        <li><a href="contact.html">Cosmetics</a></li>
+         <li><a href="#">Contact US</a></li>
+        <li><a href="contact.html"><i class="fa fa-shopping-cart"></i></a></li>
+      </ul>
+    
+</div>
+</div>
+</div>
+</nav>
+<div class="ckeckoutheader">
+      <div class="container">
+  <div class="col-md-6 checkou_bannertext">
+    <div class="">
+   <h2 class="heading_txt">Checkout</h2>
+  
+   <P class="description_txt">Congratulations! You're one step closer to better health,<br>Use our secure checkout to complete your order.</P>
+ </div>
+  
+ </div>
+  <div class="col-md-6 checkoutbanner_top_img_container">
+   <img src="html-project/images/image.png" class="checkoutbanner_top_img">
+ </div>
+</div>
+
+</div>
+
+<!--product top section start-->
+<div class="product_section1">
+  <div class="container">
+    <div class="product_top">
+      <ul>
+        <li>Product</li>
+        <li>Quantity</li>
+        <li>Price</li>
+      </ul>
+    </div>
+     <div class="Product_detail">
+      <ul>
+        <li>
+          <img src="html-project/images/image.png" class="img-responsive prd_img">
+          <div class="prd_desc">
+            <h3>Pure Derma Skin Creame</h3>
+            <p>Skin creame 500 kg</p>
+          </div>
+        </li>
+        <li><select class="select_drop">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+           </select>
+       </li>
+
+        <li>
+          <p class="price">67$</p>
+        </li>
+      </ul>
+    </div>
+    <!--total ammount-->
+    <div class="total_amt_section">
+      <div class="total_amt_section_inner">
+      <ul>
+        <li>Total</li>
+        <li>65$</li>
+      </ul>
+      <ul>
+        <li>Shipping</li>
+        <li>Free</li>
+      </ul>
+      <ul>
+        <li>Grand Total</li>
+        <li>65$</li>
+      </ul>
+    </div>
+    </div>
+    <!--total ammount ends-->
+  </div>
+</div>
+<!--product top section ends-->
+<!--product section2-->
+
+<div class="product_section2">
+  <div class="container">
+    <div class="product_top">
+      <p>Payment Information</p>
+      <div class="payment-form-section">
+        <div class="payment_inner">
+       
+        <form method="post" action="#" id="payment-form">
+           <div class="check-box">
+          <input type="checkbox" name="checkbox" value="checked" class="check-billing" checked="checked"><label>Billing Adreess is same as Shipping Address</label>
+        </div>
+        <div align="center" class="card-image">
+          <img src="html-project/images/visa_PNG33.png" align="center" width="20%">
+        </div>
+          <div class="form-group">
+            <input type="text" name="card-number" value="" placeholder="Card Number" class="form-control">
+          </div>
+          <div class="row">
+            <div class="col-md-6 padn_0">
+              <div class="form-group">
+                <select name="cvv" class="form-control cvv-expiration-date">
+                  <option value="#" selected>Expiration month</option>
+                  <option value="#">value 1</option>
+                  <option value="#">value 1</option>
+                  <option value="#">value 1</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-6 padn_0">
+              <div class="form-group">
+                <select name="cvv1" class="form-control cvv-expiration-date">
+                  <option value="#" selected>Expiration Year</option>
+                  <option value="#">value 1</option>
+                  <option value="#">value 1</option>
+                  <option value="#">value 1</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 padn_0">
+              <div class="form-group">
+                <input type="text" class="form-control" value="" placeholder="cvv">
+              </div>
+            </div>
+            <div class="col-md-6 qus_link padn_0">
+              <a href="#">Ask a Question?</a></div>
+            </div>
+            <div class="check-box">
+            <input type="checkbox" name="checkbox" value="checked" class="check-billing" checked="checked">
+            <label class="confirm-text">I agree to the Terms & Conditions &privacy policy .All Changes on your  bank statements will appear as Purederma844353288 </label>
+            <input type="submit" value=" Order Now" class="order-btn">
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--product section 2 ends-->
+<!--product section 2 ends-->
+
+
+<!--footer section start-->
+<div class="footer_section">
+  <div class="container">
+    <div class="footer_links">
+      <ul>
+        <li><a href="#">Terms & conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Customer Care</a></li>
+
+      </ul>
+    </div>
+    <div class="footer_text">
+      <p>The statements made on your websites have not been evaluated by the FDA (U.S. Food & Drug Administration).This Product is intended to not diagnose,cure or prevent any disease. The information provided by this website,email,or this company is not suitable for a foace-to-face consultation with your health care professional and should not be constructed as individual medical advice .if there is an change in your medical condition, please stop using our product immediately and consult your health care professional.Do not use is safety seal is broken or missing. For adult use only, keep out of reach of children under 18 years of age.</p>
+    </div>
+    <div class="footer_logo">
+      <img src="html-project/images/footer_logo.png" class="img-responsive">
+    </div>
+    </div>
+    <div class="copyright_text"><p>Copyright 2018,All Right Reserved</p></div>
+  </div>
+</div>
+<!--footer section ends-->
+</body>
+</html>
